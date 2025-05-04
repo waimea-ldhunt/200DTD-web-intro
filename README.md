@@ -1,1 +1,3 @@
-# 200DTD-web-intro
+# Web Intro
+
+This repo is a basic revision website using HTML and CSS.
