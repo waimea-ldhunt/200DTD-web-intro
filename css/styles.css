@@ -1,0 +1,47 @@
+
+section#hero {
+    min-height: 30rem;
+    background-color: var(--pico-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+section#hero h1{
+    font-size: 7rem;
+    color: var(--pico-background-color);
+}
+
+/* Target Main Header Only */
+body > header {
+    position: sticky;
+    top: 0;
+    background-color: var(--pico-background-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 2rem var(--pico-background-color);
+}
+
+a:hover {
+    text-decoration: none;
+}
+section#likes {
+    border: ridge;
+    border-width: 0.4rem;
+    border-color: var(--pico-primary);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+section#likes div{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+section#likes article{
+    flex: 1;
+    min-width: 15rem;
+}
