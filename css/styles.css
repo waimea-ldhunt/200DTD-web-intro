@@ -45,3 +45,25 @@ section#likes article{
     flex: 1;
     min-width: 15rem;
 }
+
+section#likes article img {
+    object-fit: fill;
+    width: max-content;
+    height: max-content;
+}
+
+/* DEMOS */
+
+section.demo div {
+    display: flex;
+    gap: 0.5rem;
+    background-color: #0005;
+    padding: 1rem;
+}
+section.demo div p {
+    font-size: 3rem;
+    background-color: var(--pico-primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--pico-background-color);
+}

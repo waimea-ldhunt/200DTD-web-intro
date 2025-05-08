@@ -17,7 +17,7 @@
     <header>
         <nav>
             <ul>
-                <li><strong>Web Intro</strong></li>
+                <li><strong>Web Intro | About</strong></li>
             </ul>
 
             <ul>
@@ -37,21 +37,36 @@
 
             <div>
                 <article>
-                    <h3>Cheese</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus soluta delectus tempora magnam reiciendis dolorem deleniti, quia eos enim porro minus voluptas numquam dicta ex ad ipsam, rem, laudantium explicabo.Yum.</p>
+                    <header><h3>Cheese</h3></header>
+                    <img src="images/cheese.jpg" alt="Image of Cheese">
+                    <p>E</p>
+                    <footer>Find out more <a>here</a></footer>
                 </article>
                 <article>
-                    <h3>Element 92</h3>
+                    <header><h3>Element 92</h3></header>
+                    <img src="images/uranium.jpg" alt="Image of Uranium element">
                     <p>Yum.</p>
+                    <footer>Find out more <a>here</a></footer>
                 </article>
                 <article>
-                    <h3>Water</h3>
+                    <header><h3>Water</h3></header>
+                    <img src="images/water.jpg" alt="Image of Water">
                     <p>Yum.</p>
+                    <footer>Find out more <a>here</a></footer>
                 </article>
             </div>
         </section>
 
-        <input type="password" maxlength="5" placeholder="Secret Code:" data-theme="light">
+        <input id="secretCode" type="password" maxlength="3" placeholder="Secret Code:" oninput=code()>
+
+        <script>
+            function code() {  
+                if (document.getElementById("secretCode").value == 625) {
+                    window.open("https://en.wikipedia.org/wiki/Special:Random");
+                }
+            }
+        </script>
+
     </main>
 
     <footer>
