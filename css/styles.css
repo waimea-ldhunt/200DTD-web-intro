@@ -59,11 +59,51 @@ section.demo div {
     gap: 0.5rem;
     background-color: #0005;
     padding: 1rem;
+    padding: 0.5rem;
+    min-height: 15rem;
 }
 section.demo div p {
-    font-size: 3rem;
+    font-size: 6rem;
     background-color: var(--pico-primary);
     padding: 1rem;
     border-radius: 0.5rem;
     color: var(--pico-background-color);
+    line-height: 1;
+    width: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+section#task2 div {
+    justify-content: center;
+}
+
+section#task3 div {
+    justify-content: space-evenly;
+}
+
+section#task4 div {
+    justify-content: right;
+}
+
+section#task5 div {
+    align-items: flex-start;
+}
+
+section#task6 div {
+    align-items: flex-end;
+}
+section#task7 div {
+    align-items: center;
+}
+section#task8 div {
+    justify-content: center;
+    align-items: center;
+}
+section#task9 div {
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+section#task10 div {
+    flex-direction: row-reverse;
 }
